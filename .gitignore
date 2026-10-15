@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated forensic test images
+copy_move_test.png
+copy_move_visualization.png
+
+# macOS
+.DS_Store
